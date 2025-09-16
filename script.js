@@ -1,4 +1,5 @@
-  // Quand on clique sur un lien .card-links a
+<script>
+// Quand on clique sur un lien .card-links a
   document.querySelectorAll(".card-links a").forEach(link => {
     link.addEventListener("click", function(e) {
       // empêcher le saut de page par défaut
@@ -19,3 +20,4 @@
       }, 2000);
     });
   });
+</script>
